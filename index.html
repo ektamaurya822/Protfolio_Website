@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ekta Maurya | Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f172a;
+      color: #f1f5f9;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 60px;
+      height: 100%;
+      background: #0f172a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 2rem;
+      border-right: 1px solid #1e293b;
+    }
+
+    .sidebar a {
+      color: #94a3b8;
+      margin: 1rem 0;
+      font-size: 1.5rem;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #38bdf8;
+    }
+
+    .main {
+      margin-left: 60px;
+      padding: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #38bdf8;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #94a3b8;
+    }
+
+    section {
+      margin: 2rem 0;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #38bdf8;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 0.5rem;
+    }
+
+    .about-me {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .about-me img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 3px solid #38bdf8;
+    }
+
+    .details p {
+      margin: 0.5rem 0;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .resume, .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .box {
+      background: #1e293b;
+      padding: 1rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .skills li {
+      list-style: none;
+      padding: 0.5rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e293b;
+      margin-top: 3rem;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      .resume, .skills {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <a href="#"><i class="fas fa-home"></i></a>
+    <a href="#about" title="About Me"><i class="fas fa-user"></i></a>
+    <a href="#resume" title="Resume"><i class="fas fa-file-alt"></i></a>
+    <a href="#projects" title="Projects"><i class="fas fa-code"></i></a>
+    <a href="#contact" title="Contact"><i class="fas fa-envelope"></i></a>
+    <a href="#certifications" title="Certificate"><i class="fas fa-certificate"></i></a>
+  </div>
+
+  <div class="main">
+    <header>
+      <h1>Hello I'm Ekta Maurya</h1>
+      <p>Hi! I'm Ekta Maurya, a passionate and driven Computer Science student with a deep love for technology, innovation, and continuous learning 💡. With a strong foundation in Python, data structures, algorithms, and software engineering, I enjoy turning ideas into impactful solutions and solving real-world problems through code 💻.
+       <br>
+       <br>
+        B.Tech CSE | 💼 Open to Full-Time & Freelance Roles
+        <br>
+        <p><strong>🌐GitHub:</strong> <a href="https://github.com/ektamaurya822" target="_blank">github.com/ektamaurya822</a></p>
+       
+       <br>
+       <br>
+       <strong>💡 Areas of Expertise: </strong><br><br>
+       Python Development 🐍<br>
+       Machine Learning & Data Science 📊🤖<br>
+       Software Engineering & Web Development 🌐<br>
+       Data Engineering & Database Management 🛠️<br>
+       Research & Academic Writing 🔬<br>
+       Cloud & DevOps (Basics) ☁️</p>
+    </header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-me">
+        <img src="1713726501596.jpg" alt="Portfolio Image" width="300">
+
+        <div class="details">
+          <p><strong>Email:</strong> ekta2002cse@gmail.com</p>
+          <p><strong>Location:</strong> Amethi, Uttar Pradesh, India</p>
+          <p><strong>Degree:</strong> B.Tech Computer Science</p>
+          <p><strong>Focus:</strong> Python, ML, Data Analysis, Software Testing , Search Engine Optimatization</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume">
+      <h2>📝 Resume</h2>
+    
+      <div>
+        <h3>📌 Professional Experience</h3>
+    
+        <div>
+          <h4>💻 Software Intern / SEO</h4>
+          <p><strong>Swadeshi Ayurved Pvt Ltd</strong> | Jan 2024 – Present</p>
+          <ul>
+            <li>🔧 Worked on backend APIs</li>
+            <li>📊 Analyzed sales data</li>
+            <li>📈 Built dashboards with Power BI</li>
+          </ul>
+        </div>
+    
+        <div>
+          <h4>🖥️ Frontend Developer Intern</h4>
+          <p><strong>Company:</strong> Softapper Tech Solutions</p>
+          <p><strong>Duration:</strong> May 2024 – Sep 2024 · Remote</p>
+        </div>
+    
+        <div>
+          <h4>📉 Data Analytics Intern</h4>
+          <p><strong>Company:</strong> Navodita Infotech</p>
+          <p><strong>Duration:</strong> Feb 2024 – Mar 2024 · Remote</p>
+        </div>
+    
+        <div>
+          <h4>📊 Data Analyst Intern</h4>
+          <p><strong>Company:</strong> Appwars Technologies</p>
+          <p><strong>Duration:</strong> Oct 2023 – Feb 2024 · Remote, Noida</p>
+        </div>
+      </div>
+    
+      <div>
+        <h3>🎓 Education</h3>
+        <div>
+          <h4>B.Tech in Computer Science</h4>
+          <p><strong>(RRSIMT)</strong> Dr. APJ Abdul Kalam Technical University</p>
+          <p>⭐ GPA: 8.4 / 10</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills resume">
+          
+          <div class=".box">
+            <h3>🚀 Data Analytics</h3>
+            <p><strong>Tools & Tech:</strong> Excel, SQL, Python (Pandas, NumPy), Power BI, Tableau</p>
+          <div class=".box">
+            <h3>🔍 SEO (Search Engine Optimization)</h3>
+            <p><strong>Tools & Tech:</strong> Google Search Console, SEMrush, Ahrefs, Yoast SEO, Screaming Frog</p>
+          </div>
+      
+          <div class=".box">
+            <h3>💻 Software Development</h3>
+            <p><strong>Languages & Tools:</strong> HTML, CSS, JavaScript, React, Python, Node.js, Git</p>
+          </div>
+        </div>
+      </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="resume">
+        <div class="box"><h3>🏏 IPL Score Prediction</h3><p>Used RNN & LSTM with TensorFlow, deployed using Flask.</p><a href="https://github.com/ektamaurya822/IPL-Score-Prediction-using-Deep-Learning" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>🛍️ Diwali Sales Analysis</h3><p>Used Pandas, NumPy, Seaborn for visualization & analysis.</p><a href="https://github.com/ektamaurya822/Diwali_Sales_Analysis" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>📊 Churn Prediction</h3><p>Predicted customer churn using Logistic Regression & Decision Trees.</p><a href="https://github.com/ektamaurya822/Churn-Prediction-using-Machine-Learning-main" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>✅ To-Do List</h3><p>Manage tasks with add/edit/delete and completion features.</p><a href="https://github.com/ektamaurya822/To-Do-list-project" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>🌐 Google Search Bar Clone</h3><p>HTML/CSS Google-like search bar UI with suggestions.</p><a href="https://github.com/ektamaurya822/GoogleSearch_bar" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>🦠 COVID-19 Data Analysis</h3><p>Exploratory data analysis on COVID trends using Python.</p><a href="https://github.com/ektamaurya822/Covid-19-Data-Analysis-using-python" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>🌦️ Weather Desktop App</h3><p>Real-time weather updates app built using Python.</p><a href="https://github.com/ektamaurya822/ektamaurya822-Weather-Desktop-App" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>🏦 Loan Eligibility Prediction</h3><p>Eligibility prediction dashboard using Power BI.</p><a href="https://github.com/ektamaurya822/Loan-Eligibility-prediction-using-powerbi" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>📦 E-commerce Sales Dashboard</h3><p>Power BI dashboard with business insights.</p><a href="https://github.com/ektamaurya822/E-commerce-Sales-data-analysis" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>🔒 Website Blocker</h3><p>Python tool to block distracting websites.</p><a href="https://github.com/ektamaurya822/Website-blocker-python-project" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>⚡ FastAPI - Bank Notes</h3><p>API created using FastAPI for note classification.</p><a href="https://github.com/ektamaurya822/Bank_Notes" target="_blank">🔗 GitHub</a></div>
+        <div class="box"><h3>📚 Python Libraries Overview</h3><p>Jupyter notebook showcasing popular Python libraries.</p><a href="https://github.com/ektamaurya822/Libraries-in-python" target="_blank">🔗 GitHub</a></div>
+      </div>
+    </section>
+    <section id="certifications">
+        <h2>Licenses & Certifications</h2>
+        <div class="resume">
+          <div class="box">
+            <h3>📘 Databricks Certified Data Engineer Associate</h3>
+            <p><strong>Issuer:</strong> Databricks</p>
+            <p><strong>Issued:</strong> Dec 2024 &nbsp; | &nbsp; <strong>Expires:</strong> Dec 2026</p>
+            <p><strong>Credential ID:</strong> 124751064</p>
+            
+          </div>
+          <div class="box">
+            <h3>🧪 Software Testing with Visual Studio</h3>
+            <p><strong>Issuer:</strong> Great Learning</p>
+            <p><strong>Issued:</strong> Jan 2023</p>
+            <p><strong>Skills:</strong> Manual Testing, System Testing</p>
+            <embed src="Software Testing with Visual Studio.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="Software Testing with Visual Studio.pdf" download>Download Software Testing Certificate (PDF)</a>
+          </div>
+          <div class="box">
+            <h3>💻 Basics Of C++</h3>
+            <p><strong>Issuer:</strong> Coding Ninjas</p>
+            <p><strong>Issued:</strong> Dec 2022</p>
+            <p><strong>Skills:</strong> C++</p>
+            <embed src="C++ certified.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="C++ certified.pdf" download>Download C++ Certificate (PDF)</a>
+
+
+          </div>
+          <div class="box">
+            <h3>☕ Basics Of Java</h3>
+            <p><strong>Issuer:</strong> Coding Ninjas</p>
+            <p><strong>Issued:</strong> Dec 2022</p>
+            <p><strong>Skills:</strong> Java, Input-Output Analysis</p>
+            <embed src="Java certified.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="Java certified.pdf" download>Download Java Certificate (PDF)</a>
+          </div>
+          <div class="box">
+            <h3>🎨 Graphics Design & Video Editing Masterclass</h3>
+            <p><strong>Issuer:</strong> Udemy</p>
+            <p><strong>Issued:</strong> Dec 2022</p>
+            <p><strong>Credential ID:</strong> UC-5e607fe4-4239-4ff2-8016-45d2648bcdcc1</p>
+            <embed src="Graphics Design & Video Editing Masterclass.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="Graphics Design & Video Editing Masterclass.pdf" download>Download Graphics Design Certificate (PDF)</a>
+          </div>
+          <div class="box">
+            <h3>📚 Core Java - 6 Week Training</h3>
+            <p><strong>Issuer:</strong> Internshala Trainings</p>
+            <p><strong>Issued:</strong> Aug 2022</p>
+            <p><strong>Credential ID:</strong> EBOAE516-F430-77A7-3CFD8C19113F</p>
+            <embed src="Core Java - 6 Week Training.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="Core Java - 6 Week Training.pdf" download>Download Core Java Certificate (PDF)</a>
+                 </div>
+          <div class="box">
+            <h3>📊 One-Day Workshop on Data Analytics</h3>
+            <p><strong>Issuer:</strong> CETPA Infotech Pvt. Ltd.</p>
+            <p><strong>Issued:</strong> Apr 2022</p>
+            <embed src="One-Day Workshop on Data Analytics.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="One-Day Workshop on Data Analytics.pdf" download>Download Data Analytics Certificate (PDF)</a>
+          </div>
+          <div class="box">
+            <h3>🌐 Visual Studio Web Development</h3>
+            <p><strong>Issuer:</strong> Internshala</p>
+            <p><strong>Issued:</strong> Feb 2022</p>
+            <p><strong>Skills:</strong> HTML, CSS, JavaScript, Oracle SQL Developer</p>
+            <p><strong>Credential ID:</strong> 211F1722-5D70-4BEF-099C-D92123E5D327</p>
+            <embed src="Visual Studio Web Development.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="Visual Studio Web Development.pdf" download>Download Visual Studio Certificate (PDF)</a>
+          </div>
+          <div class="box">
+            <h3>🐍 Python Programming - A Practical Approach</h3>
+            <p><strong>Issuer:</strong> IIT Kanpur</p>
+            <p><strong>Issued:</strong> Aug 2021</p>
+            <p><strong>Credential ID:</strong> 26994-95812-1f714098fb44f072-2021</p>
+            <embed src="Python Programming - A Practical Approach.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="Python Programming - A Practical Approach.pdf" download>Download Python Programming Certificate (PDF)</a>
+          </div>
+          <div class="box">
+            <h3>📊 Data Analytics Virtual Experience</h3>
+            <p><strong>Issuer:</strong> Accenture</p>
+            <p><strong>Issued:</strong> Jul 2022 &nbsp; | &nbsp; <strong>Expired:</strong> Jul 2022</p>
+            <p><strong>Credential ID:</strong> MxQRtxZ5fZxbhmTS85</p>
+            <embed src="Data Analytics Virtual Experience.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="Data Analytics Virtual Experience.pdf" download>Download Data Analytics Certificate (PDF)</a>
+          </div>
+      
+          <!-- TCS iON Certificate -->
+          <div class="box">
+            <h3>💼 TCS iON Career Edge - Young Professional</h3>
+            <p><strong>Issuer:</strong> TCS iON</p>
+            <p><strong>Issued:</strong> Sep 2021 &nbsp; | &nbsp; <strong>Expired:</strong> Oct 2021</p>
+            <p><strong>Credential ID:</strong> 119854-19567751-1016</p>
+            <embed src="TCS iON Career Edge - Young Professional.pdf" type="application/pdf" width="100%" height="200px" />
+            <a href="TCS iON Career Edge - Young Professional.pdf" download>Download TCS iON Certificate (PDF)</a>
+            
+          </div>
+      
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p><strong>Email:</strong> <a href="mailto:ekta2002cse@gmail.com">ekta2002cse@gmail.com</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/ektamaurya822" target="_blank">github.com/ektamaurya822</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ektamaurya" target="_blank">linkedin.com/in/ektamaurya</a></p>
+        <p><strong>contract no: </strong> <a href="" target="_blank">+918795972772</a></p>
+      </section>
+      
+
+    <footer>
+      <p>&copy; 2025 Ekta Maurya | Powered by 💡 Code and ☕ Caffeine</p>
+    </footer>
+  </div>
+</body>
+</html>
